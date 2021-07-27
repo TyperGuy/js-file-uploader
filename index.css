@@ -78,11 +78,39 @@ section .details span{
 .progress-area .details{
   display: flex;
   align-items: center;
+  margin-bottom: 7px;
   justify-content: space-between;
 }
 
-.uploaded-area .row .details{
+.progress-area .progress-bar{
+  height: 6px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4px;
+  border-radius: 30px;
+}
+.progress-bar .progress{
+  height: 100%;
+  width: 30%;
+  background: #6990f2;
+  border-radius: inherit;
+}
+
+.uploaded-area .row .content{
   display: flex;
   align-items: center;
+}
+.uploaded-area .row .details{
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.uploaded-area .details .size{
+  font-size: 11px;
+  color: #404040;
+}
+.uploaded-area .fa-check{
+  color: #6990f2;
+  font-size: 16px;
 }
 
