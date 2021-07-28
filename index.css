@@ -96,6 +96,16 @@ section .details span{
   border-radius: inherit;
 }
 
+.uploaded-area{
+  max-height: 140px;
+  overflow-y: scroll;
+}
+
+.uploaded-area::-webkit-scrollbar{
+ width: 0px;
+}
+
+
 .uploaded-area .row .content{
   display: flex;
   align-items: center;
