@@ -13,7 +13,11 @@ body{
   justify-content: center;
   min-height: 100vh;
   background: #6990f2;
-  background-image: url("fundo-lindo-nuvens-com-design-de-ceu-azul_1017-25501.jpg");
+  background-image: url("pngtree-cloud-flat-background-cartoon-blue-sky-pattern-image_418492.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
 }
 .wrapper{
   width: 430px;
