@@ -120,6 +120,11 @@ section .details span{
   align-items: center;
   justify-content: center;
 }
+.uploaded-area .row .content .bg i{
+  width: 25px;
+  height: 25px;
+  
+}
 
 .uploaded-area .row .details{
   display: flex;
