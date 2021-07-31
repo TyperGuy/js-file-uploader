@@ -13,6 +13,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   background: #6990f2;
+  background-image: url("fundo-lindo-nuvens-com-design-de-ceu-azul_1017-25501.jpg");
 }
 .wrapper{
   width: 430px;
@@ -71,7 +72,7 @@ section .details span{
   font-size: 14px;
 }
 .progress-area .row .content{
-  width: 100%;
+  width: 90%;
   margin-left: 14px;
 }
 
@@ -111,18 +112,18 @@ section .details span{
   align-items: center;
 }
 
-.uploaded-area .row .content .bg{
+.uploaded-area .row .content .bg, .progress-area .row .bg{
   width: 35px;
   height: 35px;
-  background-color: #a5bcf7;
+  background-color: #ffaf7a;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.uploaded-area .row .content .bg i{
-  width: 25px;
-  height: 25px;
+.uploaded-area .row .content .bg .fas, .progress-area .row .bg .fas{
+  font-size: 20px;
+  color: #ff6600;
   
 }
 
