@@ -117,7 +117,9 @@ section .details span{
   background-color: black;
   border-radius: 50%;
   display: flex;
+  align-items: center;
 }
+
 .uploaded-area .row .details{
   display: flex;
   margin-left: 15px;
