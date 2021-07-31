@@ -110,6 +110,13 @@ section .details span{
   display: flex;
   align-items: center;
 }
+
+.uploaded-area .row .content .bg{
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border-radius: 50%;
+}
 .uploaded-area .row .details{
   display: flex;
   margin-left: 15px;
