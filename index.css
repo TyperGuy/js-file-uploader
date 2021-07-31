@@ -114,7 +114,7 @@ section .details span{
 .uploaded-area .row .content .bg{
   width: 35px;
   height: 35px;
-  background-color: black;
+  background-color: #a5bcf7;
   border-radius: 50%;
   display: flex;
   align-items: center;
