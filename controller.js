@@ -17,3 +17,13 @@ fileInput.onchange = ({target}) =>{
     console.log(fileName);
   }
 }
+
+function uploadFile(name){
+  let xrh = new XMLHttpRequest();
+  xrh.open("POST","uploader.php");
+  xrh.upload.addEventListener("progress", e =>{
+      console.log(e);
+  });
+  let formData = new FormData(form);
+  xrh.send(formData);
+}
