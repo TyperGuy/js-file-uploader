@@ -15,6 +15,7 @@ fileInput.onchange = ({target}) =>{
   if(file){
     let fileName = file.name;
     console.log(fileName);
+    uploadFile(fileName);
   }
 }
 
@@ -24,6 +25,7 @@ function uploadFile(name){
   xrh.upload.addEventListener("progress", e =>{
       console.log(e);
   });
+
   let formData = new FormData(form);
   xrh.send(formData);
 }
